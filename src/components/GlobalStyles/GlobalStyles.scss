@@ -5,6 +5,8 @@
   --primary-color: #fe2c55;
   --header-height-txt: 60px;
   --container-width-txt: 1150px;
+  --black: #000;
+  --text-color: #333;
 }
 * {
   box-sizing: border-box;
@@ -18,4 +20,21 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1.6rem;
   text-rendering: optimizeSpeed;
+  color: var(--text-color);
+}
+button,
+input,
+[tabindex] {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+a[href] {
+  color: var(--text-color);
+  text-decoration: none;
+}
+ul,
+li,
+ol {
+  text-decoration: none;
 }
