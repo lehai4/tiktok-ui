@@ -1,0 +1,11 @@
+.wrapper {
+  width: 100%;
+  height: var(--header-height-txt, 60px);
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+  display: flex;
+  justify-content: center;
+}
+.inner {
+  height: inherit;
+  width: var(--container-width-txt, 1150px);
+}
